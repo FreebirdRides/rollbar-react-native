@@ -3,7 +3,8 @@
 #else
 #import <React/RCTBridgeModule.h>
 #endif
-#import "Rollbar.h"
+// #import "Rollbar.h"
+@import Rollbar;
 
 @interface RollbarReactNative : NSObject <RCTBridgeModule>
 
